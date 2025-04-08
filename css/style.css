@@ -58,7 +58,8 @@ button:hover {
 }
 
 
-#reset-btn{
+#reset-btn,
+#new-game{
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -66,13 +67,30 @@ button:hover {
     width: 300px;
     line-height: 100px;
     background-color: rgb(153, 73, 73) !important;
-    color: aliceblue;
+    color: aliceblue !important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
-    
-}
-#reset-btn:hover{
-background-color:brown !important;
 }
 
+#reset-btn:hover{
+    background-color:brown !important;
+}
+
+#new-game{
+    background-color: rgb(58, 153, 95) !important;
+    display: none;
+
+}
+
+#new-game:hover{
+    
+    background-color:rgb(14, 110, 46) !important;
+}
+
+.winner{
+    font-size: 80px;
+    font-weight: 800;
+    margin: 75px 0;
+    display: none;
+}
 
 
