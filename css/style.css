@@ -18,6 +18,13 @@ body {
     height: 100vh !important;
 }
 
+.game_heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
 h1 {
     font-size: calc(15px + 5vw);
     font-family: "Bungee Spice", sans-serif;
@@ -41,9 +48,10 @@ button {
     border-radius: 3px;
     background-color: rgb(194, 153, 153) !important;
     height: 100px;
+    line-height: 100px;
     width: 100px;
     cursor: pointer;
-    font-size: calc(28px + 3vw);
+    font-size: calc(72px + 1vw);
     font-family: "Winky Sans", sans-serif;
     font-weight: 500;
     color: black !important;
@@ -56,7 +64,7 @@ button:hover {
 
 #reset-btn,
 #new-game {
-    font-size: calc(10px + 2vw) !important;
+    font-size: calc(35px + 1vw) !important;
     font-family: "Winky Sans", sans-serif;
     display: flex;
     justify-content: center;
@@ -74,7 +82,7 @@ button:hover {
 }
 
 #new-game {
- 
+
     background-color: rgb(58, 153, 95) !important;
     display: none;
 }
@@ -84,10 +92,11 @@ button:hover {
 }
 
 .winner {
-    font-size: calc(20px + 5vw);
+    font-size: calc(56px + 2vw);
     font-weight: 500;
     font-family: "Winky Sans", sans-serif;
     padding: 75px 25px;
     display: none;
     border: 3px dashed black;
+    text-align: center;
 }
