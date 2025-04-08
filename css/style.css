@@ -19,7 +19,7 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: calc(15px + 5vw);
     font-family: "Bungee Spice", sans-serif;
 }
 
@@ -43,7 +43,7 @@ button {
     height: 100px;
     width: 100px;
     cursor: pointer;
-    font-size: 80px;
+    font-size: calc(20px + 3vw);
     font-family: "Winky Sans", sans-serif;
     font-weight: 500;
     color: black !important;
