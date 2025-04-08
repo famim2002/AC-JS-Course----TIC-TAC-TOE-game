@@ -43,7 +43,7 @@ button {
     height: 100px;
     width: 100px;
     cursor: pointer;
-    font-size: calc(20px + 3vw);
+    font-size: calc(28px + 3vw);
     font-family: "Winky Sans", sans-serif;
     font-weight: 500;
     color: black !important;
@@ -56,7 +56,7 @@ button:hover {
 
 #reset-btn,
 #new-game {
-    font-size: 50px;
+    font-size: calc(10px + 2vw) !important;
     font-family: "Winky Sans", sans-serif;
     display: flex;
     justify-content: center;
@@ -74,6 +74,7 @@ button:hover {
 }
 
 #new-game {
+ 
     background-color: rgb(58, 153, 95) !important;
     display: none;
 }
@@ -83,7 +84,7 @@ button:hover {
 }
 
 .winner {
-    font-size: 80px;
+    font-size: calc(20px + 5vw);
     font-weight: 500;
     font-family: "Winky Sans", sans-serif;
     padding: 75px 25px;
