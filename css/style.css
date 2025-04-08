@@ -1,14 +1,13 @@
-
-
-@import url('https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&display=swap');
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
 
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    background: url('../img/back.jpg');
+}
 
 .container {
     display: flex;
@@ -19,8 +18,9 @@
     height: 100vh !important;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+    font-size: 80px;
+    font-family: "Bungee Spice", sans-serif;
 }
 
 .main_game {
@@ -33,33 +33,31 @@ h1{
 
 .main_game .row {
     display: flex;
-    
     gap: 10px;
 }
 
 button {
     border: none !important;
     border-radius: 3px;
-    background-color: rgb(230, 220, 220) !important;
+    background-color: rgb(194, 153, 153) !important;
     height: 100px;
     width: 100px;
     cursor: pointer;
-    font-size: 50px;
-    font-family: "Codystar", sans-serif !important;
-    font-weight: 900;
+    font-size: 80px;
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 500;
     color: black !important;
-
-
 }
 
 button:hover {
-    background-color: rgb(223, 201, 201) !important;
+    background-color: rgb(143, 179, 78) !important;
     box-shadow: rgba(0, 0, 0, 0.336) 0px 2px 4px 0px inset;
 }
 
-
 #reset-btn,
-#new-game{
+#new-game {
+    font-size: 50px;
+    font-family: "Winky Sans", sans-serif;
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -68,29 +66,27 @@ button:hover {
     line-height: 100px;
     background-color: rgb(153, 73, 73) !important;
     color: aliceblue !important;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
 
-#reset-btn:hover{
-    background-color:brown !important;
+#reset-btn:hover {
+    background-color: brown !important;
 }
 
-#new-game{
+#new-game {
     background-color: rgb(58, 153, 95) !important;
     display: none;
-
 }
 
-#new-game:hover{
-    
-    background-color:rgb(14, 110, 46) !important;
+#new-game:hover {
+    background-color: rgb(14, 110, 46) !important;
 }
 
-.winner{
+.winner {
     font-size: 80px;
-    font-weight: 800;
-    margin: 75px 0;
+    font-weight: 500;
+    font-family: "Winky Sans", sans-serif;
+    padding: 75px 25px;
     display: none;
+    border: 3px dashed black;
 }
-
-
